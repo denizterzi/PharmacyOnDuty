@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tr.edu.trakya.denizterzi.pharmacyonduty.PharmacyActivity">
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merkez"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/queryButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query2"/>
+    <Button
+        android:id="@+id/queryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query"/>
+
+    <TextView
+        android:id="@+id/merkezText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merkez"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/merkezlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/lalapasaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lalapaşa"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/lalapasaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/kesanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keşan"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/kesanList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/suloglutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Süloğlu"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/suloglulist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/MericView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meriç"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/mericList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/IpsalaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ipsala"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/ipsalaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/havsaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Havsa"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/havsaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/enezText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enez"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/enezList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/uzunKopru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uzunkopru"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/uzunkopruList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+</LinearLayout>
